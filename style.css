@@ -33,6 +33,8 @@ header#main-header{
   height: 46px;
   background-color: #ffffff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 1;
 }
 header#main-header .content{
   display: flex;
@@ -104,4 +106,16 @@ header#main-header div.side input{
   border-radius: 16px;
   padding: 0 30px 0 15px;
   font-size: 12px;
+}
+
+.banner{
+  height: 380px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: #3bb9e3;
 }
