@@ -300,6 +300,82 @@ div.wrapper-content aside.profile div.photos ul li{
 
 div.wrapper-content section.timeline{
   flex:1;
+  background-color: #ffffff;
+  margin: 10px 20px 0;
+}
+
+div.wrapper-content section.timeline nav{
+  border-bottom: 1px solid #e6ecf0;
+  padding:10px 15px;
+}
+
+div.wrapper-content section.timeline nav a{
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+div.wrapper-content section.timeline ul.tweets li{
+  border-bottom: 1px solid #e6ecf0;
+  display: flex;
+  padding:10px 15px;
+}
+
+div.wrapper-content section.timeline ul.tweets li > img{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 3px solid #e6ecf0;
+}
+
+div.wrapper-content section.timeline ul.tweets li div.info{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+div.wrapper-content section.timeline ul.tweets li div.info strong{
+  font-size: 13px;
+  color: #1f2326;
+}
+
+div.wrapper-content section.timeline ul.tweets li div.info strong span{
+  font-size: 13px;
+  color: #7b8b9a;
+  font-weight: normal;
+}
+
+div.wrapper-content section.timeline ul.tweets li div.info p{
+  font-size: 14px;
+  color: #1f2326;
+  margin-top: 5px;
+}
+div.wrapper-content section.timeline ul.tweets li div.info div.actions{
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+div.wrapper-content section.timeline ul.tweets li div.info div.actions a{
+  display: flex;
+  align-items: center;
+  color: #667580;
+  font-weight: bold;
+  font-size: 12px;
+  margin-left: 30px;
+}
+div.wrapper-content section.timeline ul.tweets li div.info div.actions a:first-child{
+  margin-left: 0px;
+}
+div.wrapper-content section.timeline ul.tweets li div.info div.actions a img{
+  margin-right: 5px;
+}
+  
+div.wrapper-content section.timeline nav a:first-child{
+  margin-left: 0;
+}
+div.wrapper-content section.timeline nav a.active{
+  color: #222222;
 }
 
 div.wrapper-content aside.widgets{
